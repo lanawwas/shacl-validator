@@ -1,6 +1,10 @@
 # SHACL Validation Tool
 
-This Rust tool validates RDF data against a SHACL (Shapes Constraint Language) file. It also allows for the loading of ontologies and external terminologies for use in the validation process.
+The shacl_validation.rs tool is a command-line tool written in Rust that performs SHACL validation on a given RDF TTL data file using a SHACL TTL file and external terminology TTL files. The tool loads the ontology and external terminology files into the file system for optimized memory and performance.
+
+## Prerequisites
+
+To run the shacl_validation.rs tool, you need to have Rust installed on your system. You can download Rust from the official website: https://www.rust-lang.org/tools/install
 
 ## Usage
 
