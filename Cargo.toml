@@ -1,0 +1,9 @@
+[package]
+name = "shacl-validator"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+rdf = "0.6.0"
+shacl = "0.5.0"
+structopt = "0.3.14"
